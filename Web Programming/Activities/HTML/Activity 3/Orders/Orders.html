@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luke Wedge">
+    <title>Order Cakes</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sweet Breads and Cakes</h1>
+        <ul>
+            <li><a href="../Sweet Breads and Cakes.html">Home Page</a></li>
+            <li><a href="Orders.html">Order Cake</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Order a Cake</h2>
+        <form method="get">
+            Name: <input type="text" name="nome" size="35" maxlength="35" placeholder="Enter your name">
+            Area Code: (<input type="tel" name="ddd" size="2" maxlength="2" placeholder="Area">)
+            Phone: <input type="tel" name="telefone" size="10" maxlength="10" placeholder="Phone"><br><br>
+            <table border="1">
+                <caption>Cakes</caption>
+                <tr>
+                    <th><img src="../Images/Cake01.png" height="200"></th>
+                    <th><img src="../Images/Cake02.png" height="200"></th>
+                    <th><img src="../Images/Cake03.png" height="200"></th>
+                </tr>
+                <tr>
+                    <th>Chocolate</th>
+                    <th>Fruit</th>
+                    <th>Mixed</th>
+                </tr>
+            </table><br>
+            <label for="sabor">Flavor:</label>
+            <select name="escolha">
+                <option value="null" selected>Choose...</option>
+                <option value="cho">Chocolate</option>
+                <option value="fru">Fruit</option>
+                <option value="mis">Mixed</option>
+            </select>
+            <label for="tipo">Type:</label>
+            <input type="radio" id="simple" name="tipo" value="simple">
+            <label for="simple">Simple</label>
+            <input type="radio" id="decorated" name="tipo" value="decorated">
+            <label for="decorated">Decorated</label><br><br>
+            <label for="tamanho">Size:</label>
+            <input type="number" name="tamanho" id="tamanho" min="1" max="10"> kg
+            <input type="checkbox">Diet?<br><br>
+            <label for="observacoes">Comments:</label><br>
+            <textarea name="observacoes" id="observacoes" rows="3" cols="80"
+                placeholder="Additional information about the order"></textarea><br><br>
+            <input type="submit" value="Submit Order">
+            <input type="reset" value="Clear">
+        </form>
+    </main>
+</body>
+
+</html>

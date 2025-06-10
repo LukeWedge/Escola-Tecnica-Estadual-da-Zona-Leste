@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luke Wedge">
+    <title>Activity 1.1 HTML</title>
+</head>
+
+<body>
+    <h1>HTML</h1>
+    <h3>HyperText Markup Language</h3>
+    <h6>Hypertext Markup Language</h6>
+    <p>HTML: markup language used in the construction of web pages</p>
+    <hr>
+    <p>HTML documents can be interpreted by browsers.</p>
+    H <br> T <br> M <br> L <br> <br> Version 5
+    <pre>
+        With this tag, the text appears in the browser exactly as it was typed:
+        H
+            T
+                M
+                    L
+    </pre>
+    Colors:
+    <ul>
+        <li>Yellow</li>
+        <li>Blue</li>
+        <ul>
+            <li>Sky Blue</li>
+            <li>Navy</li>
+            <li>Royal</li>
+        </ul>
+        <li>Green</li>
+        <li>Red</li>
+    </ul>
+    <ol type="1">
+        <li>Chrome</li>
+        <li>Internet Explorer</li>
+        <li>Firefox</li>
+        <li>Edge</li>
+        <li>Safari</li>
+    </ol>
+    <dl>
+        <dt>URL</dt>
+        <dd>Uniform Resource Locator - web address where a resource is located.</dd>
+        <dt>W3C</dt>
+        <dd>World Wide Web Consortium - worldwide consortium founded in 1994, responsible for creating web standards.
+        </dd>
+        <dt>XHTML</dt>
+        <dd>eXtensible Hypertext Markup Language - reformulation of HTML based on XML.</dd>
+        <dt>XML</dt>
+        <dd>eXtensible Markup Language - W3C recommendation for creating markup languages for special needs.</dd>
+    </dl>
+    The W3C’s mission is: <q>to lead the World Wide Web to its full potential by developing protocols and guidelines
+        that ensure long-term growth of the Web</q>
+    Regarding the Semantic Web, W3C states:
+    <blockquote cite="http://www.w3c.br/Padroes/WebSemantica">
+        The term <q>Semantic Web</q> refers to W3C's vision of the Web of Linked Data. The Semantic Web gives people the
+        ability to create data repositories on the Web, build vocabularies, and write rules for data interoperability.
+    </blockquote>
+    The <abbr title="World Wide Web Consortium">W3C</abbr> was founded in 1994 <br>
+    <address>
+        Written by W3C Brazil. <br>
+        Contact us: <br>
+        http://www.w3c.br <br>
+        Av. das Nações Unidas, 11541, 2nd floor <br>
+        São Paulo, SP - Brazil
+    </address> <br>
+    <cite>Weaving The Web</cite> by Tim Berners-Lee. Published in 1999. <br>
+    <bdo dir="rtl">This text is written from right to left</bdo> <br> <br>
+    <a href="www.google.com" target="_blank">Google</a> <br>
+    <a href="Details.html">Details</a> <br>
+    <a href="Index.html">Back</a> <br>
+    <a href="Images/logo.png">Logo</a> <br> <br>
+    <a href="mailto:email@store.com,contact@company.com?subject=Suggestion&cc=client@supplier.com">Email the Company</a>
+    <br>
+    <img src="Images/HTML5.png" alt="HTML 5 Logo" title="HTML 5" width="100"> <br> <br>
+    <video src="Videos/IFSP.mp4" width="320" height="240" controls></video> <br> <br>
+    <audio src="Audios/Music.mp3" controls></audio> <br> <br>
+    <embed src="https://www.youtube.com/embed/1Q09kEf2Aaik" width="160" height="120"> <br> <br>
+    <iframe src="http://ifsp.edu.br" width="260" height="180"></iframe> <br> <br>
+    <table border="">
+        <caption>Households with Equipment</caption>
+        <tr>
+            <th>Year</th>
+            <th>Equipment</th>
+            <th>%</th>
+        </tr>
+        <tr>
+            <th rowspan="4">2015</th>
+            <td>Television</td>
+            <td>97%</td>
+        </tr>
+        <tr>
+            <td>Cellphone</td>
+            <td>93%</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>32%</td>
+        </tr>
+        <tr>
+            <td>Desktop</td>
+            <td>25%</td>
+        </tr>
+        <tr>
+            <th rowspan="4">2014</th>
+            <td>Television</td>
+            <td>98%</td>
+        </tr>
+        <tr>
+            <td>Cellphone</td>
+            <td>92%</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>30%</td>
+        </tr>
+        <tr>
+            <td>Desktop</td>
+            <td>28%</td>
+        </tr>
+        <tr>
+            <th rowspan="4">2013</th>
+            <td>Television</td>
+            <td>98%</td>
+        </tr>
+        <tr>
+            <td>Cellphone</td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>28%</td>
+        </tr>
+        <tr>
+            <td>Desktop</td>
+            <td>31%</td>
+        </tr>
+    </table> <br> <br>
+    <form method="get">
+        User: <input type="text" name="user" size="10" maxlength="10"> <br> <br>
+        Level: <br>
+        <input type="radio" name="level" value="bas">Basic <br>
+        <input type="radio" name="level" value="adv">Advanced <br> <br>
+        Period:
+        <select name="period">
+            <option value="null" selected>Select...</option>
+            <option value="mor">Morning</option>
+            <option value="nig">Night</option>
+        </select> <br> <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+
+</html>

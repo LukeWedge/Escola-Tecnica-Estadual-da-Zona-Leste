@@ -1,2 +1,2 @@
-# East-Zone-State-Technical-School
-East Zone State Technical School
+# Escola Técnica Estadual da Zona Leste
+Escola Técnica Estadual da Zona Leste
